@@ -1,0 +1,25 @@
+main {
+  background-color: darkseagreen;
+  color: indigo;
+}
+body {
+  background-image: url('images/programming.jpg');
+  background-size: cover;
+}
+#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+ul {
+  list-style-image: url('images/akaashi.png');
+}
+#borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(images/groovy.png) 30 round;
+}
+img {
+  border: 10px solid ;
+  border-image: url(images/groovy.png) 30 round;
+}
