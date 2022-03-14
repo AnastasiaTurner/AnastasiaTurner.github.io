@@ -17,6 +17,7 @@ div {
 .itembox {
   border-style: dotted;
   border-radius: 15px 50px;
+  box-shadow: 10px 10px 5px;
   background-color: seagreen;
   color: mistyrose;
   padding: 40px;
@@ -24,36 +25,48 @@ div {
 .favorite {
   border-style: solid;
   border-radius: 15px 50px;
+  box-shadow: 10px 10px 5px;
   background-color: darkseagreen;
   color: darkslategray;
   padding: 40px;
 }
-ol {
+#my-style-list {
   list-style-type: upper-roman;
-  background-color: lightpink;
+  margin: 0;
+  overflow: hidden;
+  background-color: mediumseagreen;
 }
-ul {
+ul.cpu {
   list-style-type: square;
-  background-color: firebrick;
+  margin: 0;
+  text-align: left;
+  overflow: hidden;
+  background-color: darkkhaki;
 }
-ul.list {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-    }
-    li{
-      float: left;
-    }
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    li a:hover {
-      background-color: #111;
-    }
+ul.cpu li {
+  white-space: normal;
+}
 
+
+
+ul.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: #333;
+}
+ul.list li{
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
