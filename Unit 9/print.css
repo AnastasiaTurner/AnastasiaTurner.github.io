@@ -1,0 +1,20 @@
+#nav, #sidebar, #footer, img
+{
+  display: none;
+}
+#center
+{
+  text-size: 1.25;
+}
+#header, #center
+{
+  background-color: white;
+  color: black;
+}
+@media print
+{
+  a::after
+  {
+    content: " (" attr(href) ") ";
+  }
+}
