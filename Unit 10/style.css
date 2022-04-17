@@ -1,0 +1,8 @@
+.wow {
+  width: 100px;
+}
+table, tr, td
+{
+ border: 2px solid black; 
+ background-color: mediumaquamarine;
+}
